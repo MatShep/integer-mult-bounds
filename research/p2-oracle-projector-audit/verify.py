@@ -351,7 +351,7 @@ def main():
                   rejected_semantic_controls=controls,imports_from_audited_packages=0,
                   scope='Independent source projector, all pair ratios, phase trace and rank bridge; credited history/faithfulness/oracle upper bound not replayed')
     if '--write' in sys.argv:
-        (HERE/'RESULT.json').write_text(json.dumps(result,indent=2,sort_keys=True)+'\n',encoding='utf-8')
+        (HERE/'RESULT.json').write_text(json.dumps(result,indent=2,sort_keys=True)+'\n',encoding='utf-8',newline='\n')
     else:
         require(result==json.loads((HERE/'RESULT.json').read_bytes()),'Committed independent receipt')
     print(json.dumps(result,sort_keys=True))
