@@ -1,0 +1,94 @@
+{
+  "binary_pair_classes": 12433,
+  "credited_oracle_optimum": 240,
+  "deficit_lower_over_h": "82266/343",
+  "first_moment": "4/7",
+  "imports_from_audited_packages": 0,
+  "minimum_width_from_credited_faithfulness": 72,
+  "noncommutative_left_right_fixture": {
+    "adjoint_intertwiner_exact": true,
+    "group": "S3",
+    "group_order": 6,
+    "left_and_right_matrices_differ": true,
+    "matrix_dimension": 18,
+    "ranks": [
+      8,
+      8,
+      8
+    ]
+  },
+  "pair_multiplicities": {
+    "1": 12432,
+    "112": 1
+  },
+  "projector_digests": [
+    "8f6f9d2fa8a5f8ca241bc7d7225c1a753c401433ab2b5a9a95e997fb96f72553",
+    "1a0c13a4cba6c70771190fa047299ea4144c98f180b5bbfd415cdb8fa6095213"
+  ],
+  "projector_scales": [
+    28,
+    28
+  ],
+  "rank_lower_over_h": "5434/343",
+  "rejected_semantic_controls": [
+    "damaged literal involution",
+    "collapsed fresh-block gauges",
+    "singular binary map",
+    "nonsymmetric idempotent used as an orthogonal projector",
+    "239-return claim",
+    "first-moment closure"
+  ],
+  "repeated_ratio_moment": "19/81",
+  "scope": "Independent source projector, all pair ratios, phase trace and rank bridge; credited history/faithfulness/oracle upper bound not replayed",
+  "second_moments": [
+    "27/343",
+    "27/343"
+  ],
+  "selected": [
+    0,
+    7,
+    20,
+    23,
+    86,
+    93,
+    108,
+    111
+  ],
+  "source_dimension": 112,
+  "source_rank": 8,
+  "status": "PASS_INDEPENDENT_P2_PROJECTOR_AUDIT",
+  "synthetic_phase_and_rank_fixtures": [
+    {
+      "complex_group_order": 7,
+      "leakage_real_rank": 24,
+      "phase_residue": 0,
+      "real_matrix_dimension": 42,
+      "second_moment": "5/27",
+      "sylvester_real_lower": 24
+    },
+    {
+      "complex_group_order": 7,
+      "leakage_real_rank": 28,
+      "phase_residue": 1,
+      "real_matrix_dimension": 42,
+      "second_moment": "5/27",
+      "sylvester_real_lower": 28
+    },
+    {
+      "complex_group_order": 7,
+      "leakage_real_rank": 28,
+      "phase_residue": 2,
+      "real_matrix_dimension": 42,
+      "second_moment": "5/27",
+      "sylvester_real_lower": 28
+    },
+    {
+      "complex_group_order": 7,
+      "leakage_real_rank": 28,
+      "phase_residue": 3,
+      "real_matrix_dimension": 42,
+      "second_moment": "5/27",
+      "sylvester_real_lower": 28
+    }
+  ]
+}

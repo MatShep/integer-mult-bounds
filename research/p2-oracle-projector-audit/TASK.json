@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "task_id": "formal-interface-lemma",
+  "priority_revision": 7,
+  "base_commit": "df0137efd35e11b4445734bf612bdd4c7ebc330c",
+  "original_card": {
+    "id": "formal-interface-lemma",
+    "question": "Can one uncovered interface implication be formalized with exact caller and certificate bindings?",
+    "starting_points": [
+      "docs/research/research-family-status.md",
+      "certificates/selected-result.json",
+      "research/gate-operand-parity-lean/README.md",
+      "research/staged544-certified-endpoint/README.md",
+      "research/unconditional-batched-crt/README.md"
+    ],
+    "methods": [
+      "Formalize a missing boundary lemma identified by the selected review.",
+      "Audit a formal theorem-to-certificate binding independently."
+    ],
+    "acceptance_gate": "State the exact formalized proposition and remaining assumptions; avoid duplicate arithmetic formalizations already present.",
+    "first_step": {
+      "command": [
+        "python3",
+        "-B",
+        "scripts/research_baseline.py"
+      ],
+      "expected": "PASS_RESEARCH_BASELINE_BINDINGS_ONLY",
+      "inspect": "Inventory the gate-operand parity lemma (#3807) and certified endpoint arithmetic (#3857). Neither is a full multiplication proof. For #4100, audit the compact-switch statement and its hypotheses before formalizing it.",
+      "scope": "Source-binding orientation only; no scientific replay, theorem acceptance or supplier admission. Budget any heavy replay separately."
+    },
+    "first_experiment": "Write one missing statement with quantified hypotheses, actual caller and existing coverage. A compact-switch lemma is a candidate only after its mathematical contract is reviewed. Establish a bounded proof plan before a separately budgeted proof-assistant build; do not rerun large Lean jobs as orientation.",
+    "bottleneck_link": "A missing interface proof can reduce the conditional gap even if it does not change kappa.",
+    "allowed_variations": [
+      "Narrow to one formal lemma or one theorem-to-certificate binding."
+    ],
+    "scope_change_triggers": [
+      "Formalizing already-covered arithmetic and claiming the full multiplication theorem."
+    ],
+    "overlap_terms": [
+      "hyperplane end",
+      "formal interface",
+      "Lean binding",
+      "3807",
+      "3857",
+      "4100",
+      "gate-operand-parity-lean",
+      "staged544-certified-endpoint",
+      "unconditional-batched-crt"
+    ],
+    "existing_checks": [
+      {
+        "scope": "PR #3807: scoped gate-operand parity formalization.",
+        "evidence": "research/gate-operand-parity-lean/README.md",
+        "remaining": "Exact theorem-to-caller binding and genuinely uncovered interface lemmas.",
+        "status": "author-checked",
+        "source_commit": "4c3530f42a6abcc48e7a6bcffd6c901911dc8269",
+        "selected_record_sha256": "bb2eaa58647b353f88d0aec2eafb9d30df1be53589231b23e12ceef3e4bad129"
+      },
+      {
+        "scope": "PR #3857: certified real-power moment/endpoint arithmetic.",
+        "evidence": "research/staged544-certified-endpoint/README.md",
+        "remaining": "Uniform algorithmic implications, not another endpoint digit.",
+        "status": "author-checked",
+        "source_commit": "ef4315b8caa605e47a2515004845eb2d2ed71a86",
+        "selected_record_sha256": "bb2eaa58647b353f88d0aec2eafb9d30df1be53589231b23e12ceef3e4bad129"
+      },
+      {
+        "scope": "PR #4100: compact-switch formalization proposed as future validation.",
+        "evidence": "research/unconditional-batched-crt/README.md",
+        "remaining": "Audit the statement and assumptions before a formal proof campaign.",
+        "status": "author-checked",
+        "source_commit": "337d04939571a637aeab54a0f58f54fde811663a",
+        "selected_record_sha256": "bb2eaa58647b353f88d0aec2eafb9d30df1be53589231b23e12ceef3e4bad129"
+      }
+    ]
+  },
+  "scope_status": "changed",
+  "actual_scope": "Independent audit of PR5618 sections 1-4: source orthogonal projectors, phase-independent ratio cancellation, and left/right regular-module rank bridge.",
+  "scope_change_reason": "The released PR5587 gap was already solved in PR5618. Preserve that credit and independently audit its still author-checked implication instead of duplicating it. Written proof and exact corroboration replace proof-assistant formalization.",
+  "bottleneck_link": "This checks a specific unreviewed module-to-return-count implication under explicit caller and faithfulness premises; it does not improve the already-adverse frozen invoice.",
+  "budget_minutes": 60,
+  "stop_rule": "Stop after a bounded independent check or concrete gap in PR5618 sections 1-4. No exact leakage-rank expansion, new caller, or general Clifford enumeration.",
+  "outcome": "completed",
+  "evidence": "AUDIT.md and RESULT.json; warning-strict registered normal/optimized and committed/export checks recorded outside the package.",
+  "author": "MatShep with substantial OpenAI Codex assistance",
+  "ai_assistance": "Actual GPT-6.1 Sol/xhigh wrote and checked this independent executable and audit for MatShep. No human or formal-kernel scientific review. Actual Astra/high publication review is separate.",
+  "open_questions": [
+    {
+      "question": "Can one literal changed original paid input escape the fixed-history deficit with a complete favorable bill?",
+      "why_it_matters": "The fixed oracle optimum is already sharp; computing its exact leakage rank cannot reduce 240 returns.",
+      "first_step": "Specify one changed paid-input expression and its full chronological observation boundary, then rebuild the module and charge all replacements.",
+      "blocked_by": "No changed physical caller or complete cost ledger is supplied by this audit; native/ownership/movement/precision/compiler costs remain unknown."
+    }
+  ]
+}

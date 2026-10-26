@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "python": "3.12",
+  "requirements": [],
+  "inputs": [
+    "research/p2-full-history-deficit/inputs/INVOLUTIVE-WORD.json.gz",
+    "research/p2-full-history-deficit/inputs/NORMALIZERS.json"
+  ],
+  "commands": [
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-W",
+        "error",
+        "-B",
+        "{package}/verify.py"
+      ],
+      "timeout_seconds": 120,
+      "checks": "Independent full source projectors and ordered binary ratios; literal phase/rank fixtures and six semantic rejecting controls; compare committed receipt."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-O",
+        "-W",
+        "error",
+        "-B",
+        "{package}/verify.py"
+      ],
+      "timeout_seconds": 120,
+      "checks": "Independent full source projectors and ordered binary ratios; literal phase/rank fixtures and six semantic rejecting controls; compare committed receipt."
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "base_commit": "df0137efd35e11b4445734bf612bdd4c7ebc330c",
+  "files": [
+    {
+      "path": "certificates/selected-result.json",
+      "usage": "provenance",
+      "git_blob": "581f8d87008354eb5b869f7ed9de1317ad837ce8",
+      "sha256": "2a0220e866417774606e0f991e41b9c1d26b1f43b97857238cf478dbc7d330b5"
+    },
+    {
+      "path": "docs/research/agent-task-catalog.json",
+      "usage": "provenance",
+      "git_blob": "f126dd2e2dad2b669e75d1d0d0bd05c600725602",
+      "sha256": "f7a48bfa2659b88378282a8eee7d9fe52cdf505594124c4d1686b58510fffd72"
+    },
+    {
+      "path": "research/p2-full-history-deficit/inputs/INVOLUTIVE-WORD.json.gz",
+      "usage": "input",
+      "git_blob": "eac634fb1d09428aa6715a47d652ae701dd0efc5",
+      "sha256": "ff2999f022e93e05a250160808aa3c32a08041039d7edfb01068c0308f50c138"
+    },
+    {
+      "path": "research/p2-full-history-deficit/inputs/NORMALIZERS.json",
+      "usage": "input",
+      "git_blob": "bca92c222c395d3d75c047fbb678f3cd0947c60f",
+      "sha256": "ae8aad06aa5d1811d725895b3ab5a4f4daa9dcdd88294aa0d5f723e78bb1e0da"
+    },
+    {
+      "path": "research/p2-exact-oracle-repair/PROOF.md",
+      "usage": "provenance",
+      "git_blob": "22340f435ee5a70c3b9e01875a447557caa32dd9",
+      "sha256": "1ee1e18d86cff8f21a351657a4f1895d80e2288758a276d4fb9d772dc9eda238",
+      "pin": "head:4d112aaf8e8760d34015f934ab8a63d2b9ccda83:research/p2-exact-oracle-repair/PROOF.md"
+    },
+    {
+      "path": "research/p2-exact-oracle-repair/verify.py",
+      "usage": "provenance",
+      "git_blob": "b45b980fbf1743973058f0a4db117b6e51c33e70",
+      "sha256": "9bb1a62fb9185e4137f4b37a2b0022c280c4038ae60972949291426792da9118",
+      "pin": "head:4d112aaf8e8760d34015f934ab8a63d2b9ccda83:research/p2-exact-oracle-repair/verify.py"
+    },
+    {
+      "path": "research/p2-exact-oracle-repair/RESULT.json",
+      "usage": "provenance",
+      "git_blob": "ef9db127fd8e72f2eb069c9df3437b6cc3571634",
+      "sha256": "71d68721d92844295f547f801343eaabb9afb7440d93546ec3c3bce03c6c74ea",
+      "pin": "head:4d112aaf8e8760d34015f934ab8a63d2b9ccda83:research/p2-exact-oracle-repair/RESULT.json"
+    }
+  ]
+}
